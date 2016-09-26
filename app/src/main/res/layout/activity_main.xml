@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.gh.numaddsubview.MainActivity"
+    android:gravity="center_horizontal"
+>
+
+    <com.gh.numaddsubview.NumAddSubView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:value="1"
+        app:maxvalue="5"
+        app:minvalue="1"
+        app:addBtnBG="@drawable/number_add_sub_selector"
+        app:subBtnBG="@drawable/number_add_sub_selector"
+         />
+</LinearLayout>

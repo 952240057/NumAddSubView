@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NumAddSubView">
+        <attr name="value" format="integer|reference"/>
+        <attr name="minvalue" format="integer|reference"/>
+        <attr name="maxvalue" format="integer|reference"/>
+        <attr name="addBtnBG" format="reference"/>
+        <attr name="subBtnBG" format="reference"/>
+        <attr name="numTvBG" format="reference"/>
+
+    </declare-styleable>
+</resources>
